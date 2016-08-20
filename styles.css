@@ -46,7 +46,7 @@
     min-height: 400px;
 }
 .main4 {
-    background-image: url("./images/stlMap.jpg");
+    background-image: url("./images/stlMap2.jpg");
     min-height: 600px;
 }
 .row {
@@ -135,23 +135,6 @@ p.social a {
 }
 .sep4 {
     background-color: white;
-
-}
-.main {
-    background-image: url("https://hd.unsplash.com/photo-1433147926609-4a89b40610cc");
-    min-height: 1000px;
-}
-.main2 {
-    background-image: url("https://hd.unsplash.com/photo-1461784180009-21121b2f204c");
-    min-height: 300px;
-}
-.main3 {
-    background-image: url("https://hd.unsplash.com/photo-1461749280684-dccba630e2f6");
-    min-height: 400px;
-}
-.main4 {
-    background-image: url("./images/stlMap.jpg");
-    min-height: 600px;
 }
 .row {
     text-align: center;
