@@ -6,6 +6,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main {
+    background-image: url("https://hd.unsplash.com/photo-1433147926609-4a89b40610cc");
+    min-height: 1000px;
+}
+.main2 {
+    background-image: url("https://hd.unsplash.com/photo-1461784180009-21121b2f204c");
+    min-height: 300px;
+}
+.main3 {
+    background-image: url("https://hd.unsplash.com/photo-1461749280684-dccba630e2f6");
+    min-height: 400px;
+}
+.main4 {
+    background-image: url("./images/stlMap2.jpg");
+    min-height: 600px;
+}
 .caption {
     position: absolute;
     left: 0;
@@ -27,27 +43,11 @@
 }
 .sep2 {
     background-color: #6CDEE8;
-    height: 400px;
+    height: 100%;
 }
 .sep3 {
     background-color: #FFC93C;
     height: 300px;
-}
-.main {
-    background-image: url("https://hd.unsplash.com/photo-1433147926609-4a89b40610cc");
-    min-height: 1000px;
-}
-.main2 {
-    background-image: url("https://hd.unsplash.com/photo-1461784180009-21121b2f204c");
-    min-height: 300px;
-}
-.main3 {
-    background-image: url("https://hd.unsplash.com/photo-1461749280684-dccba630e2f6");
-    min-height: 400px;
-}
-.main4 {
-    background-image: url("./images/stlMap2.jpg");
-    min-height: 600px;
 }
 .row {
     text-align: center;
@@ -118,17 +118,19 @@ p.social a {
 .sep1,.sep2, .sep3 {
     color: black;
     width: auto;
+    height: auto;
     text-align: center;
     text-align: justify;
     padding: 50px 80px;
 }
 .sep1 {
     background-color: white;
-    height: 250px;
+    /*height: 275px;*/
+    font-size: 15px;
 }
 .sep2 {
     background-color: #6CDEE8;
-    height: 400px;
+    /*height: 400px;*/
 }
 .sep3 {
     background-color: #FFC93C;
@@ -138,12 +140,10 @@ p.social a {
 }
 .row {
     text-align: center;
-    font-size: 25px;
 }
 .rowCont {
     text-align: center;
     font-size: 20px;
-
 }
 .col-md-4 {
     font-size: 50px;
@@ -162,7 +162,7 @@ p.social a {
 .cntrdEnd {
     font-size: 130px;
 }
-p.social a.facebook {
+/*p.social a.facebook {
     background-color: #ccc;
 }
 p.social a.twitter {
@@ -176,7 +176,7 @@ p.social a.instagram {
 }
 p.social a.email {
     background-color: #ccc;
-}
+}*/
 p.social a {
     margin: 0 10px 0 0;
     display: inline-block;
@@ -188,6 +188,8 @@ p.social a {
     text-align: center;
     transition: .2s ease-out;
     vertical-align: bottom;
+    background-color: #ccc;
+
 }
 .container {
     /*margin-top: 55px;*/
@@ -205,4 +207,10 @@ p.social a {
 .fa-spin-reverse {
     -webkit-animation: fa-spin 2s infinite linear reverse;
             animation: fa-spin 2s infinite linear reverse;
+}
+.hobHeader {
+    text-align: center;
+}
+i {
+    text-align: center;
 }
