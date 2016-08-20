@@ -31,6 +31,7 @@
 }
 .sep3 {
     background-color: #FFC93C;
+    height: 300px;
 }
 .main {
     background-image: url("https://hd.unsplash.com/photo-1433147926609-4a89b40610cc");
@@ -98,7 +99,6 @@ p.social a {
 .container {
     /*margin-top: 55px;*/
 }
-=======
 .main, .main2, .main3, .main4 {
 
     position: relative;
@@ -151,6 +151,7 @@ p.social a {
 }
 .row {
     text-align: center;
+    font-size: 25px;
 }
 .col-md-4 {
     font-size: 50px;
@@ -198,4 +199,14 @@ p.social a {
 }
 .container {
     /*margin-top: 55px;*/
+}
+.hobBox {
+    text-align: center;
+    height: 200px;
+    font-size: 15px;
+    /*background-color: lightgray;*/
+    /*border: 1px solid black;*/
+}
+#head {
+    font-size: 20px;
 }
