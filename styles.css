@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main, .main2, .main3, .main4 {
 
     position: relative;
@@ -98,3 +99,105 @@ p.social a {
 .container {
     /*margin-top: 55px;*/
 }
+=======
+.main, .main2, .main3, .main4 {
+
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top:25%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.sep1,.sep2, .sep3 {
+    color: black;
+    width: auto;
+    text-align: center;
+    text-align: justify;
+    padding: 50px 80px;
+}
+.sep1 {
+    background-color: white;
+    height: 250px;
+}
+.sep2 {
+    background-color: #6CDEE8;
+    height: 400px;
+}
+.sep3 {
+    background-color: #FFC93C;
+}
+.main {
+    background-image: url("https://hd.unsplash.com/photo-1433147926609-4a89b40610cc");
+    min-height: 1000px;
+}
+.main2 {
+    background-image: url("https://hd.unsplash.com/photo-1461784180009-21121b2f204c");
+    min-height: 300px;
+}
+.main3 {
+    background-image: url("https://hd.unsplash.com/photo-1461749280684-dccba630e2f6");
+    min-height: 400px;
+}
+.main4 {
+    background-image: url("./images/stlMap.jpg");
+    min-height: 600px;
+}
+.row {
+    text-align: center;
+}
+.col-md-4 {
+    font-size: 50px;
+}
+#KG {
+    width: 200px;
+    height: 140px;
+    max-width: 200px;
+    max-height: 180px;
+    border-radius: 30px;
+}
+.cntrd {
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+}
+.cntrdEnd {
+    font-size: 130px;
+}
+p.social a.facebook {
+    background-color: #ccc;
+}
+p.social a.twitter {
+    background-color: #ccc;
+}
+p.social a.gplus {
+    background-color: #ccc;
+}
+p.social a.instagram {
+    background-color: #ccc;
+}
+p.social a.email {
+    background-color: #ccc;
+}
+p.social a {
+    margin: 0 10px 0 0;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 25px;
+    line-height: 38px;
+    font-size: 15px;
+    text-align: center;
+    transition: .2s ease-out;
+    vertical-align: bottom;
+}
+.container {
+    /*margin-top: 55px;*/
+}
+>>>>>>> 515c33622ca3164b833b454eca02f4f450d37a08
