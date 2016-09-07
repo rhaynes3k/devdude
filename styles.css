@@ -1,4 +1,4 @@
-.main, .main2, .main3 {
+.main, .main2, .main3, .main4 {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -18,8 +18,8 @@
     min-height: 400px;
 }
 .main4 {
-    height: 940px;
-    overflow: hidden;
+    background: url(./images/stlMap2.jpg) no-repeat center center fixed;
+    min-height: 640px;
 }
 .caption {
     position: absolute;
@@ -39,15 +39,15 @@
     overflow: auto;
 }
 #sep1 {
-    background-color: #FFF2EC;
+    background-color: #DAE6EF;
 
 }
 #sep2 {
-    background-color: #6CDEE8;
+    background-color: #D5C9B3;
 
 }
 #sep3 {
-    background-color: #FFC93C;
+    background-color: #E6DDDC;
 
 }
 .row {
