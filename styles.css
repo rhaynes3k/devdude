@@ -1,4 +1,4 @@
-.main, .main2, .main3, .main4 {
+.main, .main2, .main3 {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -18,8 +18,10 @@
     min-height: 400px;
 }
 .main4 {
-    background: url(./images/stlMap2.jpg) no-repeat center center fixed;
-    min-height: 640px;
+    background: url("./images/moMap.jpg") no-repeat center center fixed;
+    min-height: 440px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 .caption {
     position: absolute;
