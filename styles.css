@@ -105,7 +105,7 @@ p.social a {
 }
 .hobBox {
     text-align: center;
-    height: 200px;
+    height: auto;
     font-size: 15px;
 }
 #head {
@@ -123,8 +123,4 @@ i {
 }
 img.main4 {
     -webkit-filter: grayscale(100%);
-}
-p#about {
-    margin-left: 50px;
-    margin-right: 50px;
 }
