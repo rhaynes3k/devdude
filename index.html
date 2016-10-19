@@ -16,14 +16,37 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="wrapper">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand" href="#">Rommel Haynes - Developer</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#sep1">About Me</a></li>
+                            <li><a href="#hobby">Hobbies</a></li>
+                            <li><a href="#apps">Projects</a></li>
+                            <li><a href="#sep4">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <div class="main">
             <div class="caption">
                 <h2 class="cntrd">ROMMEL J HAYNES</h2>
                 <i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
                 <span class="sr-only">Loading...</span>
-                <h4>(972) 971-9576</h4><i class="fa fa-cog fa-spin fa-2x fa-fw"></i><h4>rhaynes3k@gmail.com</h4>
+                <h4>(972) 971-9576</h4><i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
+                <h4>rhaynes3k@gmail.com</h4>
                 <i class="fa fa-spin-reverse fa-cog fa-2x"></i>
                 <span class="sr-only">Loading...</span>
                 <a href="https://www.linkedin.com/in/rommelhaynessr" target="_blank"><h4 style="color: white;">linkedin.com/in/rommelhaynessr</h4></a>
@@ -38,158 +61,173 @@
                 <div id="sep1" class="col-md-12">
                     <h1 class="aboutMe" style="text-align: center;">About Me<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h1>
                     <div>
-                        <p id="about">Hello there! I'm Rommel. I have been intrigued with technology ever since the first time I saw Star Wars. I had no family or friends in IT so my pursuit was totally self-motivated. I am currently focusing on my web development career.
-                            Web development entered my life by way of a television news segment that highlighted several notable people including Bill Gates, Mark Zuckerberg, and President Obama. That segment stated that everyone should be learning to
-                            code. The emergence of the Internet, which is a product of endless lines of code has forever changed our existence. To "speak the language" will be a great advantage in this new world.</br></br>I eventually threw myself into an immersive
-                            MEAN stack development bootcamp by the name of DevMountain. That experience taught me more than I could ever have imagined. I love to code now, and can't wait to learn my next language.</br></br>My ultimate goal is to teach my kids
-                            to code.</p>
+                        <p id="about">Hello there! I'm Rommel. I have been intrigued with technology ever since the first time I saw Star Wars. I had no family or friends in IT so my pursuit was totally self-motivated. I am currently focusing on my web development
+                            career. Web development entered my life by way of a television news segment that highlighted several notable people including Bill Gates, Mark Zuckerberg, and President Obama. That segment stated that everyone should be learning
+                            to code. The emergence of the Internet, which is a product of endless lines of code has forever changed our existence. To "speak the language" will be a great advantage in this new world.</br>
+                            </br>I eventually threw myself into an immersive MEAN stack development bootcamp by the name of DevMountain. That experience taught me more than I could ever have imagined. I love to code now, and can't wait to learn my next language.</br>
+                            </br>My ultimate goal is to teach my kids to code.</p>
                     </div>
+                </div>
             </div>
         </div>
+        <div id="hobby" class="main2">
+            <div class="caption">
+                <h1 class="hobby">Hobbies<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h1>
+            </div>
         </div>
-    <div class="main2">
-        <div class="caption">
-            <h1 class="hobby">Hobbies<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h1>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="sep2" class="col-md-12">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h2 class="hobHeader">Family Time
+        <div class="container-fluid">
+            <div class="row">
+                <div id="sep2" class="col-md-12">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h2 class="hobHeader">Family Time
             </h2>
-                <div><i class="fa fa-users" aria-hidden="true"></i>
-                    <p id="head">I love spending time with my family.</p>
-                </div>
-                <hr/>
-                <div class="hobBox">
-                    <p>Wife: Angela</p>
-                    <p>Son: Rommel, Jr.</p>
-                    <p>Daughter: Alexandria(Alex)</p>
-                    <p>Daughter: Jurnee</p>
-                    <p>Granddaughter: Melanie</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h2 class="hobHeader">Coding
+                        <div><i class="fa fa-users" aria-hidden="true"></i>
+                            <p id="head">I love spending time with my family.</p>
+                        </div>
+                        <hr/>
+                        <div class="hobBox">
+                            <p>Wife: Angela</p>
+                            <p>Son: Rommel, Jr.</p>
+                            <p>Daughter: Alexandria(Alex)</p>
+                            <p>Daughter: Jurnee</p>
+                            <p>Granddaughter: Melanie</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h2 class="hobHeader">Coding
             </h2>
-                <div><i class="fa fa-code" aria-hidden="true"></i>
-                    <p id="head">My quest is to be the absolute best!</p>
-                </div>
-                <hr/>
-                <div class="hobBox">
-                    <p>Everything from your doorbell to your refridgerator potentially uses code.</p>
-                    <p>My goal is to teach my kids to code.</p>
-                    <p>Learning to code was very intimidating at first, but I wanted to prove that no matter your age or circumstance; you can always grow and acheive!</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h2 class="hobHeader">Music
+                        <div><i class="fa fa-code" aria-hidden="true"></i>
+                            <p id="head">My quest is to be the absolute best!</p>
+                        </div>
+                        <hr/>
+                        <div class="hobBox">
+                            <p>Everything from your doorbell to your refridgerator potentially uses code.</p>
+                            <p>My goal is to teach my kids to code.</p>
+                            <p>Learning to code was very intimidating at first, but I wanted to prove that no matter your age or circumstance; you can always grow and acheive!</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h2 class="hobHeader">Music
             </h2>
-                <div><i class="fa fa-music" aria-hidden="true"></i>
-                    <p id="head">I am a lover of all music genres.</p>
-                </div>
-                <hr/>
-                <div class="hobBox">
-                    <p>Hip Hop</p>
-                    <p>R&B</p>
-                    <p>Rock</p>
-                    <p>Jazz</p>
-                    <p>etc...</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h2 class="hobHeader">Reading
+                        <div><i class="fa fa-music" aria-hidden="true"></i>
+                            <p id="head">I am a lover of all music genres.</p>
+                        </div>
+                        <hr/>
+                        <div class="hobBox">
+                            <p>Hip Hop</p>
+                            <p>R&B</p>
+                            <p>Rock</p>
+                            <p>Jazz</p>
+                            <p>etc...</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h2 class="hobHeader">Reading
             </h2>
-                <div><i class="fa fa-book" aria-hidden="true"></i>
-                    <p id="head">Reading is truly fundamental.</p>
-                </div>
-                <hr/>
-                <div class="hobBox">
-                    <p>Reading informs and educates.</p>
-                    <p>Reading expands the mind.</p>
-                    <p>Reading fuels the imagination.</p>
+                        <div><i class="fa fa-book" aria-hidden="true"></i>
+                            <p id="head">Reading is truly fundamental.</p>
+                        </div>
+                        <hr/>
+                        <div class="hobBox">
+                            <p>Reading informs and educates.</p>
+                            <p>Reading expands the mind.</p>
+                            <p>Reading fuels the imagination.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="apps" class="main3">
+            <div class="caption">
+                <h2 style="text-align: center;">Apps<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h2>
+            </div>
         </div>
-    </div>
-    <div class="main3">
-        <div class="caption">
-            <h2 style="text-align: center;">Apps<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h2>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="sep3">
-            <div class="col-xs-12 col-sm-6 col-md-3"><a href="http://knowgov.romscode.com" target="_blank"><h4>Know Your Government</h4><img id="KG" src="./images/KnowGov2.jpg" /></a></div>
-            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#/"><h4>Math-a-palooza</h4><img id="KG" src="./images/MathApp2.jpg" /></a></div>
-            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#/"><h4>Spot Assign<h4><img id="KG" src="./images/spotassign.png" /></a></div>
-            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><h4>Portfolio<h4><img id="KG" src="./images/devDude2.jpg" /></a></div>
-        </div>
-    </div>
-</div>
-    <div class="main4">
-    </div>
-    <div id="sep4">
-        <div class="row">
-            <h3 style="text-align: center;">Contact Me<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h3>
-            <hr/>
-            <section id="contact" style="background-color: #fff;" class="text-page">
-                <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="sep3">
+                    <div class="col-xs-12 col-sm-6 col-md-3"><a href="http://knowgov.romscode.com" target="_blank"><h4>KnowGov</h4><img id="KG" src="./images/KnowGov2.jpg" /></a>
+                        <p>This was my first app...HTML, CSS, Angular, REST API</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3"><a href="#/"><h4>Math-a-palooza</h4><img id="KG" src="./images/MathApp2.jpg" /></a>
+                        <p>HTML, CSS, Angular, Node, Mongo DB</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3"><a href="#/"><h4>Spot Assign</h4><img id="KG" src="./images/spotassign.png" /></a>
+                        <p>HTML, CSS, Angular components, Node, Mongo DB, JQuery</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><h4>Portfolio</h4><img id="KG" src="./images/devDude2.jpg" /></a>
+                        <p>HTML, CSS, bootstrap</p>
+                    </div>
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="rowCont">
-                                <div class="col-md-6">
-                                    <form id="contact-form" method="post" action="#" class="contact-form">
-                                        <div class="controls">
-                                            <div class="rowCont">
-                                                <div class="col-sm-6">
-                                                    <div class="form-group">
-                                                        <label for="name">Your firstname *</label>
-                                                        <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
+                        <div class="col-xs-12 col-sm-6 col-md-12"><a href="http://royalbadness.romscode.com" target="_blank"><h4>His Royal Badness</h4><img id="KG" src="./images/HisRoyalBadness.jpg" /></a>
+                            <p>HTML, CSS, bootstrap</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main4">
+        </div>
+        <div id="sep4">
+            <div class="row">
+                <h3 style="text-align: center;">Contact Me<h3 style="text-align: center;"><i class="fa fa-bolt" aria-hidden="true"></i></h3></h3>
+                <hr/>
+                <section id="contact" style="background-color: #fff;" class="text-page">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="rowCont">
+                                    <div class="col-md-6">
+                                        <form id="contact-form" method="post" action="#" class="contact-form">
+                                            <div class="controls">
+                                                <div class="rowCont">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="name">Your firstname *</label>
+                                                            <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="surname">Your lastname *</label>
+                                                            <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6">
-                                                    <div class="form-group">
-                                                        <label for="surname">Your lastname *</label>
-                                                        <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="surname">Your email *</label>
+                                                    <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="surname">Your message for me *</label>
+                                                    <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
+                                                </div>
+                                                <div class="text-center">
+                                                    <input type="submit" name="name" value="Send message" class="btn btn-primary btn-block">
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="surname">Your email *</label>
-                                                <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="surname">Your message for me *</label>
-                                                <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
-                                            </div>
-                                            <div class="text-center">
-                                                <input type="submit" name="name" value="Send message" class="btn btn-primary btn-block">
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>I have discovered that I have a passion for building apps and learning new programming languages. It may sound corny, but I love the thought of creating useful tools from literally nothing, trouble-shooting, and making things work. Reach out to me anytime for your website needs or concerns. I am happy to help! </p>
-                                    <p class="social"><a href="https://www.facebook.com/rommel.haynes.5" target="_blank" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/romjhay" target="_blank" title="" class="twitter"><i class="fa fa-twitter"></i></a>
-                                        <a href="https://www.instagram.com/rhaynes3k/" target="_blank" title="" class="instagram"><i class="fa fa-instagram"></i></a>
-                                        <a href="mailto:rhaynes3k@gmail.com?subject=PortfolioContact" title="" class="email"><i class="fa fa-envelope"></i></a>
-                                    </p>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>I have discovered that I have a passion for building apps and learning new programming languages. It may sound corny, but I love the thought of creating useful tools from literally nothing, trouble-shooting, and
+                                            making things work. Reach out to me anytime for your website needs or concerns. I am happy to help! </p>
+                                        <p class="social"><a href="https://www.facebook.com/rommel.haynes.5" target="_blank" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/romjhay" target="_blank" title="" class="twitter"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/rhaynes3k/" target="_blank" title="" class="instagram"><i class="fa fa-instagram"></i></a>
+                                            <a href="mailto:rhaynes3k@gmail.com?subject=PortfolioContact" title="" class="email"><i class="fa fa-envelope"></i></a>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
-    </div>
-    <div class="main">
-        <div class="caption">
-            <h1 class="cntrdEnd">Bye!</h1>
+        <div class="main">
+            <div class="caption">
+                <h1 class="cntrdEnd">Bye!</h1>
+            </div>
         </div>
-    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
