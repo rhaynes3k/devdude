@@ -25,10 +25,8 @@
     background-size: cover;
 }
 .navbar {
-    min-height: 30px;
     display: inline;
     float:right;
-    /*margin-top: 20px;*/
     font-size: 20px;
     background-color: #DAE6EF;
     opacity: .6;
@@ -114,9 +112,6 @@ p.social a {
     text-align: center;
     transition: .2s ease-out;
     vertical-align: bottom;
-}
-.container {
-    /*margin-top: 55px;*/
 }
 .hobBox {
     text-align: center;
