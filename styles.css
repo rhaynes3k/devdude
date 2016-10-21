@@ -1,3 +1,6 @@
+body {
+    margin:0;
+}
 .main, .main2, .main3 {
     position: relative;
     background-attachment: fixed;
@@ -23,21 +26,6 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-size: cover;
-}
-.navbar {
-    display: inline;
-    float:right;
-    font-size: 20px;
-    background-color: #DAE6EF;
-    opacity: .6;
-}
-.navbar-inverse {
-    background-color: #ffffff;
-}
-.navbar-nav li {
-    margin-right: 50px;
-    margin-left: 50px;
-    color: blue;
 }
 .caption {
     position: absolute;
@@ -69,6 +57,7 @@
 }
 .row {
     text-align: center;
+    margin-bottom: auto;
 }
 .col-md-4 {
     font-size: 50px;
@@ -139,7 +128,9 @@ ul.topnav {
   background-color: #D7E4EC;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+    float: left;
+}
 
 ul.topnav li a {
   display: inline-block;
@@ -151,12 +142,18 @@ ul.topnav li a {
   font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #fff;}
+ul.topnav li a:hover {
+    background-color: #fff;
+}
 
-ul.topnav li.icon {display: none;}
+ul.topnav li.icon {
+    display: none;
+}
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li:not(:first-child) {
+      display: none;
+  }
   ul.topnav li.icon {
     float: right;
     display: inline-block;
@@ -164,7 +161,9 @@ ul.topnav li.icon {display: none;}
 }
 
 @media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive {
+      position: relative;
+  }
   ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
